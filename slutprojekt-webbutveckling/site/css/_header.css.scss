@@ -25,12 +25,12 @@ header{
 }
 
 .side_nav{
-    height: 100%;
-    width: 10%;
+    height: 598px;
+    width: 0px;
     position: absolute;
+    overflow-x: hidden;
     background-color: gray;
-    padding-top: 10vw;
-    display: none;
+    display: block;
 }
 
 // Fixa en logotyp också.
