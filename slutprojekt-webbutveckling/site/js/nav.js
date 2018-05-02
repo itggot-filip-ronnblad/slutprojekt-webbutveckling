@@ -3,5 +3,5 @@ function openNav(){
 }
 
 function closeNav(){
-    document.getElementsByClassName("side_nav").style.width = "0px"
+    document.getElementsByClassName("side_nav").style.width = "0px";
 }
