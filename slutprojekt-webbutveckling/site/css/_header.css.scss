@@ -29,6 +29,7 @@ header{
 }
 
 .side_nav{
+
     height: 598px;
     width: 180px;
     position: absolute;
@@ -37,6 +38,11 @@ header{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(12, 1fr);
+    
+}
+
+.show{
+    display: block;
 }
 
 .close_button{

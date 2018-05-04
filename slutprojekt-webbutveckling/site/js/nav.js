@@ -1,7 +1,4 @@
-function openNav(){
-    document.getElementsByClassName("side_nav").style.width = "180px";
-}
-
-function closeNav(){
-    document.getElementsByClassName("side_nav").style.width = "0px"
+function toggleMenu(){
+    var element = document.querySelector(".side_nav");
+    element.classList.toggle("show");
 }

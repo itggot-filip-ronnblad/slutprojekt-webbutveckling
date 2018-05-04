@@ -54,6 +54,9 @@ header {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(12, 1fr); }
 
+.show {
+  display: block; }
+
 .close_button {
   grid-column: 3/4;
   grid-row: 1/2;
@@ -137,8 +140,6 @@ header {
   text-align: center;
   padding-top: 5%; }
 
-@media only screen and (min-device-width: 400px) {
-  font-size: 30px; }
 main {
   grid-column: 1/5;
   grid-row: 4/11;
