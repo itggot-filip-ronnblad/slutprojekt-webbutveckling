@@ -50,38 +50,33 @@ header {
   position: absolute;
   overflow-x: hidden;
   background-color: #ebebeb;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(12, 1fr); }
+  display: none; }
 
 .show {
   display: block; }
 
 .close_button {
-  grid-column: 3/4;
-  grid-row: 1/2;
+  margin-left: 130px;
   text-decoration: none;
   color: black;
   font-size: 50px; }
 
 .nav_element_1 {
-  grid-column: 1/5;
-  grid-row: 2/3; }
+  margin-top: 30px;
+  text-align: center; }
 
 .nav_element_2 {
-  grid-column: 1/5;
-  grid-row: 3/4; }
+  margin-top: 30px;
+  text-align: center; }
 
 .nav_element_3 {
-  grid-column: 1/5;
-  grid-row: 4/5; }
+  margin-top: 30px;
+  text-align: center; }
 
 .side_nav a {
   text-decoration: none;
   color: black;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
   transition: 0.75s;
   overflow: hidden; }
 
