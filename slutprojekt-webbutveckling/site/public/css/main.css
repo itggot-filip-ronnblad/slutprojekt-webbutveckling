@@ -73,6 +73,10 @@ header {
   margin-top: 30px;
   text-align: center; }
 
+.nav_element_4 {
+  margin-top: 30px;
+  text-align: center; }
+
 .side_nav a {
   text-decoration: none;
   color: black;
@@ -133,6 +137,9 @@ header {
   .nav_element_3 {
     font-size: 30px; }
 
+  .nav_element_4 {
+    font-size: 30px; }
+
   .side_nav a:hover {
     font-size: 38px;
     transition: 0.75s; } }
@@ -188,16 +195,17 @@ main {
   grid-column: 1/5;
   grid-row: 3/5;
   margin-left: 10%;
-  margin-right: 10%; }
+  margin-right: 10%;
+  padding-inline-end: 10px; }
 
 .fraga2 {
   grid-column: 2/4;
-  grid-row: 5/6;
+  grid-row: 5/7;
   text-align: center; }
 
 .svar2 {
   grid-column: 1/5;
-  grid-row: 6/7;
+  grid-row: 7/8;
   margin-left: 10%;
   margin-right: 10%; }
 
