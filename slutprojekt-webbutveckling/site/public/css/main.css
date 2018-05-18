@@ -111,6 +111,9 @@ header {
   .title {
     font-size: 60px; }
 
+  .close_button {
+    display: none; }
+
   .menyikon {
     grid-column: 1/3;
     grid-row: 1/2;
