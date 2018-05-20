@@ -107,10 +107,7 @@ header{
     }
 
     .menyikon{
-        grid-column: 1/3;
-        grid-row: 1/2;
-        margin-left: 300px;
-        margin-top: 85px; 
+        display: none;
     }
 
     .side_nav{
@@ -127,6 +124,7 @@ header{
     }
 
     .nav_element_1{
+        margin-top: 20%;
         font-size: 30px;
     }
     
