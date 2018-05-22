@@ -46,3 +46,49 @@
     grid-row: 7/8;
     margin-top: 0%;
 }
+
+@media only screen and (min-device-width: 450px){
+
+    .cake_nyheter_1{
+        grid-column: 7/8;
+        grid-row: 2/3;
+    }
+
+    .utveckling{
+        grid-column: 4/7;
+        margin-top: 20%;
+        font-size: 27px;
+    }
+
+    .utveckling_paragraf{
+        grid-column: 4/7;
+        margin-top: 0px;
+    }
+
+    .utveckling_datum{
+        grid-column: 4/7;
+        margin-top: 0px;
+    }
+
+    .cake_nyheter_2{
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    .tur{
+        grid-column: 3/6;
+        grid-row: 4/5;
+        font-size: 27px;
+        margin-top: 20%;
+    }
+
+    .tur_paragraf{
+        grid-column: 3/6;
+        grid-row: 5/6;
+    }
+
+    .tur_datum{
+        grid-column: 3/6;
+        grid-row: 6/7;
+    }
+}
