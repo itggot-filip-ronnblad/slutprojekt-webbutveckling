@@ -391,3 +391,26 @@ input[type="checkbox"] {
     height: 50%;
     margin-top: 20%;
     font-size: 200%; } }
+.utveckling {
+  grid-column: 2/4;
+  grid-row: 1/2; }
+
+.utveckling_paragraf {
+  grid-column: 2/4;
+  grid-row: 2/3; }
+
+.utveckling_datum {
+  grid-column: 2/4;
+  grid-row: 3/4; }
+
+.tur {
+  grid-column: 2/4;
+  grid-row: 5/6; }
+
+.tur_paragraf {
+  grid-column: 2/4;
+  grid-row: 6/7; }
+
+.tur_datum {
+  grid-column: 2/4;
+  grid-row: 7/8; }
