@@ -440,6 +440,13 @@ input[type="checkbox"] {
     grid-column: 7/8;
     grid-row: 2/3; }
 
+  .bild_nyheter_1 {
+    grid-column: 2/4;
+    grid-row: 1/4;
+    background: url("../img/party.jpg");
+    margin-top: 40px;
+    background-repeat: no-repeat; }
+
   .utveckling {
     grid-column: 4/7;
     margin-top: 20%;
@@ -456,6 +463,13 @@ input[type="checkbox"] {
   .cake_nyheter_2 {
     grid-column: 2/3;
     grid-row: 5/6; }
+
+  .bild_nyheter_2 {
+    grid-column: 6/8;
+    grid-row: 4/7;
+    background: url("../img/race_track_nyheter_klar.jpg");
+    background-repeat: no-repeat;
+    margin-top: 40px; }
 
   .tur {
     grid-column: 3/6;
