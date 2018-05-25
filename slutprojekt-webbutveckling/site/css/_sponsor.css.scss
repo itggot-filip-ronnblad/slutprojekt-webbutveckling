@@ -52,6 +52,10 @@ input[type="checkbox"]{
     font-size: 25px;
 }
 
+.accept_button:hover{
+    cursor: pointer;
+}
+
 @media only screen and (min-device-width: 450px){
     .sponsra{
         grid-column: 4/7;
