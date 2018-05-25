@@ -123,7 +123,7 @@ header {
     grid-row: 1/13;
     background-color: #ebebeb;
     width: 375px;
-    height: 700px;
+    height: 100%;
     display: block; }
 
   .show {
