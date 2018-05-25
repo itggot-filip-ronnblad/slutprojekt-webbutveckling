@@ -403,7 +403,8 @@ input[type="checkbox"] {
   grid-row: 1/2;
   width: 87px;
   height: 61px;
-  background: url("../img/css_sprites.png") -10px -10px; }
+  background: url("../img/css_sprites.png") -10px -10px;
+  margin-left: 10px; }
 
 .utveckling {
   grid-column: 2/4;
@@ -425,7 +426,8 @@ input[type="checkbox"] {
   grid-row: 5/6;
   width: 87px;
   height: 61px;
-  background: url("../img/css_sprites.png") -117px -10px; }
+  background: url("../img/css_sprites.png") -117px -10px;
+  margin-right: 10px; }
 
 .tur {
   grid-column: 2/4;
@@ -452,7 +454,8 @@ input[type="checkbox"] {
     grid-row: 1/4;
     background: url("../img/party.jpg");
     margin-top: 40px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    margin-right: 10px; }
 
   .utveckling {
     grid-column: 4/7;
@@ -476,7 +479,8 @@ input[type="checkbox"] {
     grid-row: 4/7;
     background: url("../img/race_track_nyheter_klar.jpg");
     background-repeat: no-repeat;
-    margin-top: 40px; }
+    margin-top: 40px;
+    margin-left: 10px; }
 
   .tur {
     grid-column: 3/6;
